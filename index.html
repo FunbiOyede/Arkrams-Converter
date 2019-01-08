@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/App.css">
+</head>
+<body>
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div class="col-md-6">
+                        <h1 class="text-center intro-header">Weight Converter</h1>
+                        <form action="">
+                           
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Enter Number" id="numberInput">
+                                    <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                             
+                                            </div>
+                                            <select class="custom-select mt-3" id="category">
+                                              <option selected>select</option>
+                                              <option value="Pound">Pound</option>
+                                              <option value="Grams">Grams</option>
+                                              <option value="Tonne">Tonne</option>
+                                              <option value="Miligram">Miligram</option>
+                                              <option value="Microgram">Microgram</option>
+                                              <option value="Kilogram">KiloGrams</option>
+                                               <option value="Stone">Stone</option>
+                                               <option value="Ounce">Ounce</option>
+                                            </select>
+                                          </div>
+                                </div>
+                        </form>
+
+                        <!-- output section -->
+                        <div id="output">
+                            <div class="card bg-danger mb-3">
+                                <div class="card-body">
+                                    <div class="card-title" id="first">grams:</div>
+                                    <div id="firstOutput"></div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-success mb-3">
+                                    <div class="card-body">
+                                        <div class="card-title" id="second">Tonne</div>
+                                        <div id="secondOutput"></div>
+                                    </div>
+                                </div>
+
+                                <div class="card bg-primary mb-3">
+                                        <div class="card-body">
+                                            <div class="card-title" id="third">Miligram</div>
+                                            <div id="thirdOutput"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-secondary mb-3">
+                                        <div class="card-body">
+                                            <div class="card-title" id="fourth">Microgram</div>
+                                            <div id="FourthOutput"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-warning mb-3">
+                                        <div class="card-body">
+                                            <div class="card-title" id="fifth">kilograms</div>
+                                            <div id="fifthOutput"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-primary mb-3">
+                                        <div class="card-body">
+                                            <div class="card-title" id="sixth">Stone</div>
+                                            <div id="sixthOutput"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-succes mb-3">
+                                        <div class="card-body">
+                                            <div class="card-title" id="last">Ounce</div>
+                                            <div id="lastOutput"></div>
+                                        </div>
+                                    </div>
+                        </div>
+                </div>      
+            </div>     
+        </div>
+        
+    
+
+    <script src="lib/js/jquery-1.11.1.min.js"></script>
+    <script src="lib/js/bootstrap.js"></script>
+    <script src="js/App.js"></script>
+</body>
+</html>

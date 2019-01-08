@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell');
+
+html,body,div,section{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cantarell', sans-serif;
+}
+
+body{
+    background: #262228;
+}
+
+.check{
+    overflow: hidden;
+}
+.intro-header{
+    color: white;
+    margin-top: 30px;
+    
+}
